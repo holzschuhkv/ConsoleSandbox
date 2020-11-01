@@ -5,6 +5,9 @@ using System.IO;
 
 namespace TestApplicationConsole
 {
+    /// <summary>
+    /// BAD code! REFACTOR!
+    /// </summary>
     class Html2CsvParser
     {
         public void parseHtmlFile(string filePath = @"D:\Arbeit\BACHELORARBEIT\overview.html")

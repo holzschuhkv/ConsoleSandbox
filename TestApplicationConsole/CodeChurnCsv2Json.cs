@@ -67,7 +67,7 @@ namespace TestApplicationConsole
             }
             catch (Exception exception)
             {
-                
+                //Stacktrace ausgeben
             }
         }
 

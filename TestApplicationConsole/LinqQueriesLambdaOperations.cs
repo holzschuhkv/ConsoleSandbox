@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TestApplicationConsole
 {
@@ -46,8 +44,8 @@ namespace TestApplicationConsole
                                             });
 
             var compositeJoin = suppliers.Join(suppliers,
-                                                s => new { s.District, s.Age }, // must be the same
-                                                b => new { b.District, b.Age }, // must be the same
+                                                s => new { s.District, s.Age }, // have to be the same
+                                                b => new { b.District, b.Age }, // have to be the same
                                                 (s, b) => new
                                                 {
                                                     SupplierName = s.Name,

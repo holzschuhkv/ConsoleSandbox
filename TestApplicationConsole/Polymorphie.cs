@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TestApplicationConsole
 {
@@ -20,7 +16,7 @@ namespace TestApplicationConsole
 
     class DerivedPolyClass : PolyBaseClass
     {
-        // This constructor will call PolyBaseClass.PolyBaseClass(int i)
+        // This constructor calls PolyBaseClass.PolyBaseClass(int i)
         public DerivedPolyClass(int param2, int param1) : base(param1)
         {
             Console.WriteLine("\n\ndPolyKlasse" + param1 + "\n" + param2);
