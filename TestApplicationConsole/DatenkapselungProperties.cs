@@ -36,5 +36,11 @@ namespace TestApplicationConsole
         /// kann nur bei automatisch generierten Properties erstellt werden
         /// </summary>
         public int TestValueMitStartwert { get; set; } = 100;
+
+        // Properties die nur ein get oder set enthalten haben eine bestimmte Funktionsweise
+        // get => readonly field 
+        // (difference to readonly => readonly elements are declared during class creation or constructor calls, not changable later)
+        //
+        // set => for dependency injection instead of using a constructor for the injection you are using properties
     }
 }
