@@ -9,15 +9,16 @@ namespace TestApplicationConsole
     class DatenkapselungProperties
     {
         private int _TestValue;
+        private int _TestValueWithLambda;
 
-        // Selbsterstellte Property mit Filterung
+        // Selbsterstellte Property mit IF-Filterung
         public int TestValue
         {
-            get
+            get // Werte zurückgeben
             {
                 return _TestValue;
             }
-            set
+            set // Werte setzen
             {
                 if (value < 0)
                 {
@@ -42,5 +43,13 @@ namespace TestApplicationConsole
         // (difference to readonly => readonly elements are declared during class creation or constructor calls, not changable later)
         //
         // ONLY set => for dependency injection instead of using a constructor for the injection you are using properties
+
+        internal string TestStringProperty { get; set; }
+
+        public int TestValueWithLambda
+        {
+            get => _TestValueWithLambda;
+            set => _TestValueWithLambda = value;
+        }
     }
 }

@@ -16,3 +16,14 @@ D:\Arbeit\PROGRAMS\TestPrograms\TestApplication\TestApplicationConsole\obj\Debug
 D:\Arbeit\PROGRAMS\TestPrograms\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.exe
 D:\Arbeit\PROGRAMS\TestPrograms\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.pdb
 D:\Arbeit\PROGRAMS\TestPrograms\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.csprojAssemblyReference.cache
+D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\TestApplicationConsole.exe.config
+D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\TestApplicationConsole.exe
+D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\TestApplicationConsole.pdb
+D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\HtmlAgilityPack.dll
+D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\HtmlAgilityPack.pdb
+D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\HtmlAgilityPack.xml
+D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.csprojAssemblyReference.cache
+D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.csproj.CoreCompileInputs.cache
+D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.csproj.CopyComplete
+D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.exe
+D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.pdb

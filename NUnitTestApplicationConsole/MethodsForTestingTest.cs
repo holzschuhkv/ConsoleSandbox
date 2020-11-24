@@ -12,12 +12,12 @@ namespace NUnitTestApplicationConsole
         /// SetUp is run at first before each test, is for instancing objects
         /// </summary> 
 
-        private MethodsForTesting methodsForTesting = null;
+        private UnitTests methodsForTesting = null;
 
         [SetUp]
         public void Setup()
         {
-            methodsForTesting = new MethodsForTesting();
+            methodsForTesting = new UnitTests();
         }
 
         [TearDown]

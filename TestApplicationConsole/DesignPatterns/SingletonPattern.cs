@@ -23,9 +23,4 @@ namespace TestApplicationConsole
             }
         }
     }
-
-    interface ITest
-    {
-        void InterfaceTestMethode(int i);
-    }
 }

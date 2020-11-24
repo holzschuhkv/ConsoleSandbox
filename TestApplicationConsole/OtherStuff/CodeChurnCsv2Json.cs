@@ -67,6 +67,7 @@ namespace TestApplicationConsole
             }
             catch (Exception exception)
             {
+                Console.WriteLine(exception.StackTrace);
                 //Stacktrace ausgeben
             }
         }
