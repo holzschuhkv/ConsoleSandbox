@@ -22,7 +22,6 @@ D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\TestApplicationCons
 D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\HtmlAgilityPack.dll
 D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\HtmlAgilityPack.pdb
 D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\HtmlAgilityPack.xml
-D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.csprojAssemblyReference.cache
 D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.csproj.CoreCompileInputs.cache
 D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.csproj.CopyComplete
 D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.exe

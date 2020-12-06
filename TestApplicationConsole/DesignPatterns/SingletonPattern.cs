@@ -6,18 +6,21 @@ using System.Threading.Tasks;
 
 namespace TestApplicationConsole
 {
-    class CleanCodeDesignPatterns
+    class SingletonPattern
     {
-        private static CleanCodeDesignPatterns _instance = null;
-        private CleanCodeDesignPatterns()
+        /// <summary>
+        /// Notification: SingletonPattern is no longer an "real" design pattern
+        /// </summary>
+        private static SingletonPattern _instance = null;
+        private SingletonPattern()
         { }
-        public static CleanCodeDesignPatterns CreateInstance
+        public static SingletonPattern CreateInstance
         {
             get
             {
                 if(_instance == null)
                 {
-                    _instance = new CleanCodeDesignPatterns();
+                    _instance = new SingletonPattern();
                 }
                 return _instance;
             }
