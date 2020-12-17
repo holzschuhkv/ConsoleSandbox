@@ -25,7 +25,7 @@ namespace TestApplicationWpf
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void BtnCopyToClipboard(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Test");
         }
@@ -35,14 +35,24 @@ namespace TestApplicationWpf
             
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void BtnEditLock(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("Test", "Test", MessageBoxButton.YesNoCancel);
         }
 
         private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
+        }
+
+        private void BtnCompileExecute(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Test", "Test", MessageBoxButton.YesNoCancel);
+        }
+
+        private void BtnExpand(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Test", "Test", MessageBoxButton.YesNoCancel);
         }
     }
 }
