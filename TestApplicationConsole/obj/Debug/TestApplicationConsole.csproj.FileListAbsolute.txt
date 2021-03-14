@@ -26,3 +26,4 @@ D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationCons
 D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.csproj.CopyComplete
 D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.exe
 D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.pdb
+D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.csprojAssemblyReference.cache

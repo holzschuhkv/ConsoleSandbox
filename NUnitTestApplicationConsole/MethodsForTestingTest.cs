@@ -12,12 +12,12 @@ namespace NUnitTestApplicationConsole
         /// SetUp is run at first before each test, is for instancing objects
         /// </summary> 
 
-        private UnitTests methodsForTesting = null;
+        private SimpleMethods methodsForTesting = null;
 
         [SetUp]
         public void Setup()
         {
-            methodsForTesting = new UnitTests();
+            methodsForTesting = new SimpleMethods();
         }
 
         [TearDown]
@@ -52,7 +52,7 @@ namespace NUnitTestApplicationConsole
             Assert.That(result, Is.EqualTo("isAdmin"));
         }
 
-        [Test]
+        [Test, Category("Test")]
         [TestCase(2, 4, 6)]
         [TestCase(2, 1, 3)]
         [TestCase(3, -1, 2)]

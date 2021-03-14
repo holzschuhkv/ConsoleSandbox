@@ -9,11 +9,11 @@ namespace TestApplicationConsole
     /// <summary>
     /// In this file are methods for nunit testing
     /// </summary>
-    public class UnitTests
+    public class SimpleMethods
     {
         string value1 = "StringValue";
 
-        public UnitTests()
+        public SimpleMethods()
         {
 
         }

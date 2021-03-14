@@ -53,12 +53,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Basics\Arrays.cs" />
+    <Compile Include="Basics\DictionaryLists.cs" />
+    <Compile Include="Basics\GenericsCollections.cs" />
     <Compile Include="DesignPatterns\SingletonPattern.cs" />
-    <Compile Include="OtherStuff\CodeChurnCsv2Json.cs" />
-    <Compile Include="OtherStuff\Html2CsvParser.cs" />
+    <Compile Include="Miscellaneous\CodeChurnCsv2Json.cs" />
+    <Compile Include="Miscellaneous\EmailProvider.cs" />
+    <Compile Include="Miscellaneous\Html2CsvParser.cs" />
     <Compile Include="Basics\Classes.cs" />
     <Compile Include="Advanced\LinqQueriesLambdaOperations.cs" />
-    <Compile Include="Tests\UnitTests.cs" />
+    <Compile Include="MethodsForTests\SimpleMethods.cs" />
     <Compile Include="Basics\Polymorphism.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
