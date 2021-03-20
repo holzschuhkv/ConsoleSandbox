@@ -8,8 +8,6 @@ namespace TestApplicationConsole
         public string testInput = "BASIS KLASSE | testInput Ausgabe";
         public int id = 0;
 
-        
-
         public MainClass()
         {
             Console.WriteLine($"\nBASIS KLASSE | Standard-Konstruktor - ID {id}");
