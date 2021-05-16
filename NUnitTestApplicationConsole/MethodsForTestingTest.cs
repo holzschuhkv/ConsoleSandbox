@@ -13,13 +13,16 @@ namespace NUnitTestApplicationConsole
         /// </summary> 
 
         private SimpleMethods methodsForTesting = null;
-
+       
         [SetUp]
         public void Setup()
         {
             methodsForTesting = new SimpleMethods();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [TearDown]
         public void TeardDown()
         {
@@ -39,6 +42,9 @@ namespace NUnitTestApplicationConsole
             Assert.Pass();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [Test]
         public void SimpleStringReturn_AdminUserTest_ReturnIsAdmin()
         {

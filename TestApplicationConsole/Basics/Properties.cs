@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestApplicationConsole
+namespace TestApplicationConsole.Basics
 {
     class DatenkapselungProperties
     {
         private int _TestValue;
-        private int _TestValueWithLambda;
 
         // Selbsterstellte Property mit IF-Filterung
         public int TestValue
@@ -46,10 +45,24 @@ namespace TestApplicationConsole
 
         internal string TestStringProperty { get; set; }
 
+        /// <summary>
+        /// Property implementation with lambda expression
+        /// </summary>
+        private int _TestValueWithLambda;
+
         public int TestValueWithLambda
         {
             get => _TestValueWithLambda;
             set => _TestValueWithLambda = value;
+        }
+
+        /// <summary>
+        /// satic properties for classes
+        /// </summary>
+        private static int _staticTestProperty;
+        public static int StaticTestProperty
+        {
+            get { return _staticTestProperty; }
         }
     }
 }

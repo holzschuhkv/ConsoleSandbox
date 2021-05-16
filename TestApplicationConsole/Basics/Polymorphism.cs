@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TestApplicationConsole
+namespace TestApplicationConsole.Basics
 {
     /// <summary>
     /// Abstract classes can not be instanced!

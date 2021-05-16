@@ -1,7 +1,10 @@
 ﻿using System;
 
-namespace TestApplicationConsole
+namespace TestApplicationConsole.Basics
 {
+    /// <summary>
+    /// Classes are per default -> internal
+    /// </summary>
     class MainClass
     {
         private string _Input;
@@ -61,6 +64,14 @@ namespace TestApplicationConsole
         public override string VirtualTestMethode()
         {
             return "VERERBTE KLASSE | VirtualTestMethod";
+        }
+    }
+
+    static class StaticTestClass
+    {
+        static public void testMethodFromStaticTestClass()
+        {
+            Console.WriteLine("StaticTestClass - via 'using static class'");
         }
     }
 }

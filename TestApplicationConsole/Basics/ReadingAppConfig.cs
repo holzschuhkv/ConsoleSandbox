@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Configuration;
 
-namespace TestApplicationConsole
+namespace TestApplicationConsole.Basics
 {
     class ReadingAppConfig
     {

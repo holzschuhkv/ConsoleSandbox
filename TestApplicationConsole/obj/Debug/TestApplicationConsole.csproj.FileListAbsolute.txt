@@ -27,3 +27,13 @@ D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationCons
 D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.exe
 D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.pdb
 D:\DEV\TEST\TestApplication\TestApplicationConsole\obj\Debug\TestApplicationConsole.csprojAssemblyReference.cache
+D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\BouncyCastle.Crypto.dll
+D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\MailKit.dll
+D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\MimeKit.dll
+D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\System.Buffers.dll
+D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\BouncyCastle.Crypto.xml
+D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\MailKit.pdb
+D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\MailKit.xml
+D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\MimeKit.pdb
+D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\MimeKit.xml
+D:\DEV\TEST\TestApplication\TestApplicationConsole\bin\Debug\System.Buffers.xml
