@@ -71,6 +71,11 @@
     <Compile Include="Basics\DictionaryLists.cs" />
     <Compile Include="Advanced\GenericsCollections.cs" />
     <Compile Include="Basics\Namespaces.cs" />
+    <Compile Include="CleanCode\SOLID\DependencyInversionPrinciple.cs" />
+    <Compile Include="CleanCode\SOLID\InterfaceSegregationPrinciple.cs" />
+    <Compile Include="CleanCode\SOLID\LiskovSubstitutionPrinciple.cs" />
+    <Compile Include="CleanCode\SOLID\OpenClosedPrinciple.cs" />
+    <Compile Include="CleanCode\SOLID\SingleResponsiblityPrinciple.cs" />
     <Compile Include="DesignPatterns\SingletonPattern.cs" />
     <Compile Include="Miscellaneous\CodeChurnCsv2Json.cs" />
     <Compile Include="Miscellaneous\EmailProvider.cs" />
@@ -88,8 +93,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CleanCode\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
