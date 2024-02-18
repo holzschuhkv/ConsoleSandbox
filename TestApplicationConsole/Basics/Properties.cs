@@ -9,7 +9,6 @@ namespace TestApplicationConsole.Basics
     class DatenkapselungProperties
     {
         private int _TestValue;
-
         // Selbsterstellte Property mit IF-Filterung
         public int TestValue
         {

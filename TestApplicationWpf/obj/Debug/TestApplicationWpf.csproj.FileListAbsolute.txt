@@ -12,4 +12,4 @@ D:\DEV\TEST\TestApplication\TestApplicationWpf\obj\Debug\TestApplicationWpf.cspr
 D:\DEV\TEST\TestApplication\TestApplicationWpf\obj\Debug\TestApplicationWpf.csproj.CoreCompileInputs.cache
 D:\DEV\TEST\TestApplication\TestApplicationWpf\obj\Debug\TestApplicationWpf.exe
 D:\DEV\TEST\TestApplication\TestApplicationWpf\obj\Debug\TestApplicationWpf.pdb
-D:\DEV\TEST\TestApplication\TestApplicationWpf\obj\Debug\TestApplicationWpf.csprojAssemblyReference.cache
+D:\DEV\TEST\TestApplication\TestApplicationWpf\obj\Debug\TestApplicationWpf.csproj.AssemblyReference.cache

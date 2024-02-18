@@ -74,4 +74,26 @@ namespace TestApplicationConsole.Basics
             Console.WriteLine("StaticTestClass - via 'using static class'");
         }
     }
+
+    partial class Circle
+    {
+        public Circle()
+        {
+            //default constructor
+            Console.WriteLine("returning contructor of first partial class of circle");
+        }
+
+        public void circlePartOneMethod()
+        {
+            Console.WriteLine("circlePartOneMethod");
+        }
+    }
+
+    partial class Circle
+    {
+        public void circlePartTowMethod() 
+        {
+            Console.WriteLine("circlePartOneMethod");
+        }
+    }
 }

@@ -33,24 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BouncyCastle.Crypto, Version=1.8.10.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
-      <HintPath>packages\Portable.BouncyCastle.1.8.10\lib\net40\BouncyCastle.Crypto.dll</HintPath>
-    </Reference>
-    <Reference Include="HtmlAgilityPack, Version=1.11.31.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
-      <HintPath>packages\HtmlAgilityPack.1.11.31\lib\Net45\HtmlAgilityPack.dll</HintPath>
-    </Reference>
-    <Reference Include="MailKit, Version=2.11.0.0, Culture=neutral, PublicKeyToken=4e064fe7c44a8f1b, processorArchitecture=MSIL">
-      <HintPath>packages\MailKit.2.11.1\lib\net47\MailKit.dll</HintPath>
-    </Reference>
-    <Reference Include="MimeKit, Version=2.11.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814, processorArchitecture=MSIL">
-      <HintPath>packages\MimeKit.2.11.0\lib\net47\MimeKit.dll</HintPath>
-    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
-    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
-    </Reference>
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Security" />
@@ -65,8 +50,10 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Advanced\DependencyInjection\ConstructorInjection.cs" />
     <Compile Include="Advanced\Reflection.cs" />
     <Compile Include="Basics\Arrays.cs" />
+    <Compile Include="Basics\Enumerables.cs" />
     <Compile Include="Basics\InterfaceAndAbstractClass.cs" />
     <Compile Include="Basics\DictionaryLists.cs" />
     <Compile Include="Advanced\GenericsCollections.cs" />
@@ -77,9 +64,6 @@
     <Compile Include="CleanCode\SOLID\OpenClosedPrinciple.cs" />
     <Compile Include="CleanCode\SOLID\SingleResponsiblityPrinciple.cs" />
     <Compile Include="DesignPatterns\SingletonPattern.cs" />
-    <Compile Include="Miscellaneous\CodeChurnCsv2Json.cs" />
-    <Compile Include="Miscellaneous\EmailProvider.cs" />
-    <Compile Include="Miscellaneous\Html2CsvParser.cs" />
     <Compile Include="Basics\Classes.cs" />
     <Compile Include="Advanced\LinqQueriesLambdaOperations.cs" />
     <Compile Include="MethodsForTests\SimpleMethods.cs" />
@@ -91,7 +75,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

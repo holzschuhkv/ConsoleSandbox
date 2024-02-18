@@ -12,8 +12,10 @@ namespace TestApplicationConsole.DesingPatterns
         /// Notification: SingletonPattern is no longer an "real" design pattern
         /// </summary>
         private static SingletonPattern _instance = null;
+
         private SingletonPattern()
         { }
+
         public static SingletonPattern CreateInstance
         {
             get
