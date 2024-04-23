@@ -1,18 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TestApplicationConsole.Basics
 {
     class DatenkapselungProperties
     {
+        // bei der Angabe eines Zugriffsmodifizierers müssen beide Accessoren angegeben werden
+        // nur ein Accessor darf einen unterschiedlichen Modifizierer zur Property haben
+        // Modifizierer muss einschrenkender sein als der der Property
+        public int PropertyWithDiffAccess
+        {
+            get;
+            private set;
+        }
+
+
         private int _TestValue;
         // Selbsterstellte Property mit IF-Filterung
         public int TestValue
         {
-            get // Werte zurückgeben
+            get
             {
                 return _TestValue;
             }
@@ -31,24 +37,22 @@ namespace TestApplicationConsole.Basics
         }
 
         /// <summary>
-        /// Auto-Property mit Initializer = 100
-        /// kann nur bei automatisch generierten Properties erstellt werden
+        /// Auto-Property mit Initializer(Startwert) = 100
         /// </summary>
         public int TestValueMitStartwert { get; set; } = 100;
 
-        // Properties die nur ein get oder set enthalten haben eine bestimmte Funktionsweise
-        // ONLY get => readonly field 
+        // Properties können auch nur einen Accessor (get, set) aufweisen
+        // ONLY get => readonly field (nur Lesezugriff)
         // (difference to readonly => readonly elements are declared during class creation or constructor calls, not changable later)
         //
         // ONLY set => for dependency injection instead of using a constructor for the injection you are using properties
+        internal string TestStringProperty { get; } //readonly
 
-        internal string TestStringProperty { get; set; }
 
         /// <summary>
         /// Property implementation with lambda expression
         /// </summary>
         private int _TestValueWithLambda;
-
         public int TestValueWithLambda
         {
             get => _TestValueWithLambda;
