@@ -3,8 +3,17 @@ using System.Collections;
 
 namespace TestApplicationConsole.Basics
 {
-    class ArrayOperationen
+    public class ArrayOperationen
     {
+        int[] simpleArray; // ohne Festlegung der Arraygröße
+
+        public ArrayOperationen()
+        {
+            simpleArray = new int[5];
+
+            simpleArray = new int[] { 1, 2, 3 };
+        }
+
         // 3D Array
         int[,,] MatrixTest3D = new int[,,] //Ebene, Zeile, Spalte
         {
