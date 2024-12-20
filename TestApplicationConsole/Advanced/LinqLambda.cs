@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace TestApplicationConsole
 {
-    class LinqQueriesLambdaOperations
+    class LinqLambda
     {
         void Main()
         {
@@ -75,7 +75,7 @@ namespace TestApplicationConsole
         }
     }
 
-    internal class Supplier
+    class Supplier
     {
         public string Name { get; set; }
         public string District { get; set; }

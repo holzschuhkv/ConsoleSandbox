@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TestApplicationConsole.Advanced
+﻿namespace TestApplicationConsole.Advanced
 {
     class Reflection
     {
+        // work in progress
     }
 }

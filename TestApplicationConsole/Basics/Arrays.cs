@@ -3,11 +3,11 @@ using System.Collections;
 
 namespace TestApplicationConsole.Basics
 {
-    public class ArrayOperationen
+    class Arrays
     {
         int[] simpleArray; // ohne Festlegung der Arraygröße
 
-        public ArrayOperationen()
+        public Arrays()
         {
             simpleArray = new int[5];
 
@@ -17,15 +17,15 @@ namespace TestApplicationConsole.Basics
         // 3D Array
         int[,,] MatrixTest3D = new int[,,] //Ebene, Zeile, Spalte
         {
-            {//Ebene 1
+            {// Ebene 1
                 {1, 3, 4 },// Zeile 1
                 {4, 2, 5 }
             },
-            {//Ebene 2
+            {// Ebene 2
                 {2, 1, 2 },
                 {4, 9, 2 }
             },
-            {//Ebene 3
+            {// Ebene 3
                 {3, 2, 1},
                 {8, 2, 1}
             }
@@ -55,33 +55,7 @@ namespace TestApplicationConsole.Basics
             };
         #endregion
 
-        // Arraylisten
-        ArrayList myArrayList = new ArrayList();        // undefinierte Anzahl
-        ArrayList myArrayList2 = new ArrayList(100);    // definierte Anzahl
-
-        public void ArrayListOperations()
-        {
-            var sum = 0.0;
-            myArrayList.Add(100);
-            myArrayList.Add("Test");
-            myArrayList.Add(12.3);
-
-            myArrayList.RemoveAt(2);        // Position als Parameter angeben
-            myArrayList.Remove("Test");     // entfernt das erste Element mit "Test"
-
-            foreach(var elem in myArrayList)
-            {
-                if(elem is int)
-                {
-                    sum += Convert.ToDouble(elem);
-                }
-                else if(elem is double)
-                {
-                    sum += (double)elem;
-                }
-            }
-            Console.WriteLine($"Ausgabe {sum}");
-        }
+        
 
         public void TestFunction(int[] ArrayInput)
         {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DLLInjection")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c0b146081b218db8a2cd022a4936d1f5dc92d72")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9001b2ef2f4655f83b78c88a7136c36ccd03788b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DLLInjection")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DLLInjection")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

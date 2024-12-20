@@ -50,13 +50,13 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Advanced\DependencyInjection\ConstructorInjection.cs" />
     <Compile Include="Advanced\Reflection.cs" />
     <Compile Include="Basics\Arrays.cs" />
     <Compile Include="Basics\Enumerables.cs" />
+    <Compile Include="Basics\Events.cs" />
     <Compile Include="Basics\InterfaceAndAbstractClass.cs" />
     <Compile Include="Basics\DictionaryLists.cs" />
-    <Compile Include="Advanced\GenericsCollections.cs" />
+    <Compile Include="Advanced\Collections.cs" />
     <Compile Include="Basics\Namespaces.cs" />
     <Compile Include="CleanCode\SOLID\DependencyInversionPrinciple.cs" />
     <Compile Include="CleanCode\SOLID\InterfaceSegregationPrinciple.cs" />
@@ -65,7 +65,7 @@
     <Compile Include="CleanCode\SOLID\SingleResponsiblityPrinciple.cs" />
     <Compile Include="DesignPatterns\SingletonPattern.cs" />
     <Compile Include="Basics\Classes.cs" />
-    <Compile Include="Advanced\LinqQueriesLambdaOperations.cs" />
+    <Compile Include="Advanced\LinqLambda.cs" />
     <Compile Include="MethodsForTests\SimpleMethods.cs" />
     <Compile Include="Basics\Polymorphism.cs" />
     <Compile Include="Program.cs" />
