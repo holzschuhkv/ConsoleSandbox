@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TestApplicationConsole.Basics
+﻿namespace ConsoleSandbox.Basics
 {
     /// <summary>
     /// Abstract classes can not be instanced!
@@ -9,19 +7,19 @@ namespace TestApplicationConsole.Basics
     {
         public int Param1 { get; } // Schreibgeschützt
 
-        public PolyBaseClass() 
+        public PolyBaseClass()
         {
             Console.WriteLine("PolyBaseClass - DefaultConstructor call");
         }
 
-        public PolyBaseClass(int param1) 
+        public PolyBaseClass(int param1)
         {
             Console.WriteLine($"PolyBaseClass(int param1): param1 = {param1}");
         }
 
         public PolyBaseClass(int param2, int param1) : this(param1)
         {
-            this.Param1 = param1;
+            Param1 = param1;
             Console.WriteLine($"PolyBaseClass(int param2, int param1): param2 = {param2}");
         }
 

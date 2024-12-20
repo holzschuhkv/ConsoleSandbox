@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TestApplicationConsole.Basics
+﻿namespace ConsoleSandbox.Basics
 {
     class DatenkapselungProperties
     {

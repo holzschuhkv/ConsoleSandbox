@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TestApplicationConsole.Basics
+﻿namespace TestApplicationConsole.Basics
 {
     /// <summary>
     /// Classes are per default -> internal

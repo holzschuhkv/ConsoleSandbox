@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections;
 
-namespace TestApplicationConsole.Basics
+namespace ConsoleSandbox.Advanced
 {
     class Collections
     {
-        // Arraylisten
-        ArrayList myArrayList = new ArrayList();        // undefinierte Anzahl
-        ArrayList myArrayList2 = new ArrayList(100);    // definierte Anzahl
+        // work in progress
+
+        ArrayList myArrayList = new ArrayList();      
+        ArrayList myArrayList2 = new ArrayList(100);  
 
         public void ArrayListOperations()
         {
@@ -20,8 +16,8 @@ namespace TestApplicationConsole.Basics
             myArrayList.Add("Test");
             myArrayList.Add(12.3);
 
-            myArrayList.RemoveAt(2);        // Position als Parameter angeben
-            myArrayList.Remove("Test");     // entfernt das erste Element mit "Test"
+            myArrayList.RemoveAt(2);        
+            myArrayList.Remove("Test");    
 
             foreach (var elem in myArrayList)
             {

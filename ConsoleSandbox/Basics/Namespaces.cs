@@ -1,9 +1,8 @@
-﻿using Ausgabe = System.Console;
-using namespaceTwo = TestApplicationConsole.Basics.NamespaceTwo;
+﻿using namespaceTwo = TestApplicationConsole.Basics.NamespaceTwo;
 using static TestApplicationConsole.Basics.StaticTestClass;
 using static System.Console;
 
-namespace TestApplicationConsole.Basics
+namespace ConsoleSandbox.Basics
 {
     class NamespaceOne
     {
@@ -17,7 +16,7 @@ namespace TestApplicationConsole.Basics
             testnamespacetwo.TestMethodNamespaceTwo();
 
             // with the keyword global you are able to access the global namespace
-            global::System.Console.WriteLine("test via global");
+            WriteLine("test via global");
 
             // :: operator
             // ist notwendig um auf den globalen Namespace zuzugreifen
@@ -38,7 +37,7 @@ namespace TestApplicationConsole.Basics.NamespaceTwo
     {
         internal void TestMethodNamespaceTwo()
         {
-            Ausgabe.WriteLine("TestApplicationConsole.Basics - NamespaceTwo");
+            WriteLine("TestApplicationConsole.Basics - NamespaceTwo");
         }
     }
 }

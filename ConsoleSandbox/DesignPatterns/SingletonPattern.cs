@@ -1,5 +1,7 @@
-﻿namespace TestApplicationConsole.DesingPatterns
+﻿namespace ConsoleSandbox.DesignPatterns
 {
+    // work in progress
+
     class SingletonPattern
     {
         private static SingletonPattern _instance = null;
@@ -11,7 +13,7 @@
         {
             get
             {
-                if(_instance == null)
+                if (_instance == null)
                 {
                     _instance = new SingletonPattern();
                 }

@@ -1,15 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TestApplicationConsole.CleanCode.SOLID
+﻿namespace ConsoleSandbox.CleanCode.SOLID
 { 
-    /// <summary>
-    /// 
-    /// </summary>
     class DependencyInversionPrinciple
     {
+        // work in progress
     }
 }

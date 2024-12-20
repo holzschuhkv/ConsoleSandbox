@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TestApplicationConsole.CleanCode.SOLID
+﻿namespace ConsoleSandbox.CleanCode.SOLID
 {
     class InterfaceSegregationPrinciple
     {
+        // work in progress
     }
 }

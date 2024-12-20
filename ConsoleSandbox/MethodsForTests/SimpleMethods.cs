@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TestApplicationConsole
+﻿namespace ConsoleSandbox.MethodsForTests
 {
+    // work in progress
+
+
     /// <summary>
     /// In this file are methods for nunit testing
     /// </summary>
@@ -44,7 +41,7 @@ namespace TestApplicationConsole
 
         public IEnumerable<int> EnumerableIntegerOutput(int limit)
         {
-            for(var x = 0; x < limit; x++)
+            for (var x = 0; x < limit; x++)
             {
                 yield return x;
             }

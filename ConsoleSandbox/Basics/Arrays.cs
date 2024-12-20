@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-
-namespace TestApplicationConsole.Basics
+﻿namespace ConsoleSandbox.Basics
 {
     class Arrays
     {
@@ -55,11 +52,11 @@ namespace TestApplicationConsole.Basics
             };
         #endregion
 
-        
+
 
         public void TestFunction(int[] ArrayInput)
         {
-            foreach(var elem in ArrayInput)
+            foreach (var elem in ArrayInput)
             {
                 Console.WriteLine(elem + Environment.NewLine);
             }

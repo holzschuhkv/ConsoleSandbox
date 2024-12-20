@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TestApplicationConsole.Basics
+﻿namespace ConsoleSandbox.Basics
 {
     /// <summary>
     /// All methods in an interface are declared as public. No private methods can be implemented.
@@ -34,7 +28,7 @@ namespace TestApplicationConsole.Basics
 
     class InterfaceClass : AbstractTestClass
     {
-        public override int TestMethod() 
+        public override int TestMethod()
         {
             return 1;
         }

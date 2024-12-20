@@ -1,4 +1,4 @@
-﻿namespace TestApplicationConsole.Advanced
+﻿namespace ConsoleSandbox.Advanced
 {
     class Reflection
     {

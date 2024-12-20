@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace TestApplicationConsole
+﻿namespace ConsoleSandbox.Advanced
 {
     class LinqLambda
     {
+        // work in progress
+
         void Main()
         {
             var buyers = new List<Buyers>()
@@ -28,7 +26,7 @@ namespace TestApplicationConsole
                             where x.myAge >= 20
                             select x; // Linq Query
 
-            var linqQuery2 = buyers.Where(x => (x.myAge >= 20));
+            var linqQuery2 = buyers.Where(x => x.myAge >= 20);
 
             var simpleGrouping = buyers.Where(x => x.myAge >= 20)
                                        .GroupBy(x => x.Name)
